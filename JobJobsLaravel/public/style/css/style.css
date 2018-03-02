@@ -1,0 +1,160 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	
+}
+.headers
+{
+	background-color: orange;
+	height: 53px;
+}
+.header{
+	float: left;
+	background-color: orange;
+	height: 53px;
+	width: 100%;
+	color: white;
+}
+
+.buttons{
+	float: left;
+	width: 5%;
+	align-items: center;
+	padding: 15px;
+	text-decoration: none;
+}
+
+.buttons a{
+	text-decoration: none;
+}
+
+
+.left{
+	width: 50%;
+	float: left;
+	height: 50px;
+	background-color: #343a40;
+}
+
+.right{
+	width: 50%;
+	float: left;
+	height: 50px;
+	background-color: #343a40;
+}
+
+.buttonSearch{
+	float: right;
+	padding: 15px;
+	align-items: center;
+}
+
+.textSearch{
+	float: right;
+	padding: 15px;
+	align-items: center;
+}
+
+.headerPicHome{
+	background: url('../../Source/1208202225231.jpg') no-repeat center;
+	background-size: 100%;
+	padding-top: 170px;
+	text-align: center;
+	height: 100px;
+}
+
+
+
+.box{
+	margin-left: 15%;
+	background-color: #EBEBEB;
+	width: 70%;
+	height: 550px;
+}
+
+.footer{
+	margin-left: 15%;
+	background-color: #EBEBEB;
+	width: 70%;
+	height: 70px;
+	color: #CFCFCF;
+}
+
+.footer p{
+	color: black;
+}
+
+.footer p a{
+		text-decoration: none;
+		color : blue;
+}
+
+
+.content{
+	background-color: #CFCFCF;
+	height: 850px;
+}
+
+/*subpage*/
+.headerNoPicHome{
+	padding-top: 120px;
+	text-align: center;
+	height: 100px;
+}
+.boxNoHome{
+	margin-left: 15%;
+	background-color: #EBEBEB;
+	width: 70%;
+	height: 400px;
+}
+
+/*drop down*/
+nav{
+	float: left;
+	width: 10%;
+	align-items: center;
+
+}
+
+nav ul{
+	list-style: none;
+	margin: 0;
+}
+
+nav ul li{
+	float: left;
+	position: relative;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 15px;
+
+}
+
+nav ul li a:hover{
+	background-color: orange;
+}
+
+nav ul ul{
+	display: none;
+	background-color: white;
+	position: absolute;
+	box-shadow: 0px 1px 3px grey;
+	color: black;
+}
+
+nav ul li:hover > ul{
+	display: block;
+}
+
+nav ul ul li a{
+	width: 110px;
+}
+
+nav ul ul li a b{
+	color: black;
+}

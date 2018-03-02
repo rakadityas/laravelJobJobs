@@ -1,0 +1,106 @@
+body
+{
+	background-color: rgba(207,207,207,1.00);
+}
+
+/*Navigator*/
+.header-black
+{
+	background-color: orange;
+	height: 53px;
+	padding: 0px;
+}
+.nav-custom
+{
+	background-color: #343a40;
+	border: none;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a
+{
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+	background-color: orange;
+}
+.navbar-default .navbar-nav>li>a:visited
+{
+	color: white;
+}
+
+
+/*Content*/
+.cont-pic
+{
+	background: url('../../img/header.jpg') no-repeat;
+	background-size: 100%;
+	top: 0px;
+	margin-top: 0px;
+	min-height: 185px;
+	background-attachment: absolute;
+	padding-top: 200px;
+	padding-bottom: 200px;
+
+}
+
+
+
+/*login*/
+.panel-default>.panel-heading
+{
+	background-color: #343a40;
+	color: white;
+}
+
+/*General*/
+.clr-white
+{
+	color: white;
+}
+.clr-margin
+{
+	margin: 0px;
+}
+
+
+
+
+/**/
+
+
+
+/*RAKA*/
+.productButtons:hover{
+	background-color: #7F9938;
+	color: white;
+}
+
+
+.OPENING{
+	margin-top: 80px;
+	margin-bottom: 70px;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+
+.OPENING2{
+	margin-top: 80px;
+	margin-bottom: 70px;
+	text-align: center;
+	color: black;
+	font-size: 50px;
+}
+
+.DESCRIPTION
+{
+	font-size: 18px;
+	text-align: center;
+}
+
+.DESCRIPTION2
+{
+	font-size: 18px;
+	text-align: left;
+}
